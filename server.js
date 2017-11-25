@@ -11,7 +11,6 @@ function error404 (response){
 function onRequest (request, response){
 
     if (request.method =='GET' && request.url =='/'){
-    //console.log("A user made a request" + request.url);
     response.writeHead(200,{"Context-Type":"text/html/css"});
     fs.createReadStream("./login/index.html").pipe(response);
     }
