@@ -1,0 +1,2 @@
+require ('./arifdy');
+require ('./pinchez');

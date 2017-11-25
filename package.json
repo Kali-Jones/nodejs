@@ -1,0 +1,27 @@
+{
+  "name": "nodesql",
+  "version": "1.0.0",
+  "description": "simple mysql app demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect": "^3.6.5",
+    "express": "^4.16.2",
+    "flow": "^0.2.3",
+    "mysql": "^2.15.0",
+    "react": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.42.0",
+    "prettier-eslint": "^8.2.1"
+  }
+}
